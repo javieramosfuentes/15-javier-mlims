@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header>a {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    background-color: #194013;
+}
+
+.nav-1 {
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+    justify-content: flex-end;
+    background-color:#1a4314;
+}
+
+.nav-1 li {
+    padding: 20px 10px;
+}
+
+.nav-1 li:hover {
+    background-color: #2C5E1A;
+}
+
+.nav-1 li>a:hover{
+    color: greenyellow;
+}
+
+.nav-1 li>a {
+    color: #1e7e1c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-size: 19px;
+}
+
+.content-block {
+    display: flex;
+}
+
+.content-block main {
+    width: 70%;
+    margin: 10px 30px;
+}
+
+.content-block aside{
+    width: 30%;
+}
+
+.minecraft-installer{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+p {
+    font-family: 'Ubuntu Mono';
+}
+
+
