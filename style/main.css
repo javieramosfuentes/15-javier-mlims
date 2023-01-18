@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: grey;
+}
+
 header>a {
     display: flex;
     justify-content: flex-end;
@@ -45,21 +49,109 @@ header>a {
 
 .content-block main {
     width: 70%;
-    margin: 10px 30px;
 }
 
 .content-block aside{
     width: 30%;
 }
 
-.minecraft-installer{
+.aside {
+    background-color: #173a12;
+}
+
+.list-aside a{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    color: #1e7e1c;
+}
+
+.list-aside a:hover{
+    color:#2C5E1A ;
+}
+
+.list-aside li{
+    margin: 10px 0;
+}
+
+.list-aside{
     display:flex;
-    justify-content: flex-end;
+    flex-direction: column;
     align-items: center;
+    list-style-type: none;
+    margin-top: 10px;
 }
 
-p {
+main{
+    background-color: rgb(155, 155, 155);
+}
+
+article>h1 {
+    margin-left: 18px;
+    margin-right: 10px;
+    margin-top: 14px;
+    font-family: 'Antic Slab';
+    border-bottom: 1px solid rgb(69, 69, 69);
+}
+
+article p {
     font-family: 'Ubuntu Mono';
+    margin: 20px;
 }
 
+.creator-div {
+    display: flex;
+}
 
+.creator-div figure {
+    margin: 10px;
+}
+
+article figcaption{
+    font-family: 'Roboto Condensed';
+}
+
+.tools-div {
+    display: flex;
+    justify-content:space-around ;
+    margin: 30px 10px;
+}
+
+.enchants .enchant-books{
+    display: flex;
+    justify-content: flex-end;
+    margin-left:40px;
+    background-color: #2C5E1A;
+}
+
+.aside img{
+    margin: 18px 15px;
+}
+
+footer {
+    margin: 20px 0;
+    background-color: rgb(155, 155, 155);
+}
+
+footer>p {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+footer p{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.banners {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+footer a{
+    color:rgb(52, 86, 18);
+    text-decoration: none;
+
+}
