@@ -27,51 +27,53 @@
             <article>
                 <form method="post">
                     <fieldset>
-                        <legend>Personal Data</legend>
-                        <p><label for="name">Name: </label>
-                        <input type="text" required id="name"></p>
-                        <p><label for="email">Email: </label>
-                        <input type="email" required id="email"></p>
-                        <p><label for="password">Password: </label>
-                        <input type="text" required id="password"></p>
+                        <div class="personal-d">
+                            <legend>Personal Data</legend>
+                            <p><label for="name">Name: </label>
+                            <input type="text" required id="name"></p>
+                            <p><label for="email">Email: </label>
+                            <input type="email" required id="email"></p>
+                            <p><label for="password">Password: </label>
+                            <input type="text" required id="password"></p>
+                        </div>
                     </fieldset>
                     <fieldset>
-                        <legend>Additional Data</legend>
-                        <p>Have you ever played Minecraft ?</p>
-                        <label for="played">Yes</label>
-                        <input type="radio" id="yes" value="yes" name="played">
-                        <label for="played">No</label>
-                        <input type="radio" id="no" value="no" name="played">
-                    
+                        <div class="additional-d">
+                            <legend>Additional Data</legend>
+                            <p>Have you ever played Minecraft ?</p>
+                            <label for="played">Yes</label>
+                            <input type="radio" id="yes" value="yes" name="played">
+                            <label for="played">No</label>
+                            <input type="radio" id="no" value="no" name="played">
+                        </div>
                         <p>What do you like most about this game</p>
-                        <div>
-                            <input type="checkbox" id="construction" name="constrution">
-                            <label for="construction">Construction</label>
-                          </div>
-                      
-                          <div>
-                            <input type="checkbox" id="landscapes" name="landscapes">
-                            <label for="landscapes">Landscapes</label>
-                          </div>
+                        <div class="checkboxes">
+                            <div>
+                                <input type="checkbox" id="construction" name="constrution">
+                                <label for="construction">Construction</label>
+                            </div>
+                        
+                            <div>
+                                <input type="checkbox" id="landscapes" name="landscapes">
+                                <label for="landscapes">Landscapes</label>
+                            </div>
 
-                          <div>
-                            <input type="checkbox" id="farming" name="farming">
-                            <label for="farming">Farming materials</label>
-                          </div>
+                            <div>
+                                <input type="checkbox" id="farming" name="farming">
+                                <label for="farming">Farming materials</label>
+                            </div>
 
-                          <div>
-                            <input type="checkbox" id="animals" name="animals">
-                            <label for="animals">Animals</label>
-                          </div>
+                            <div>
+                                <input type="checkbox" id="animals" name="animals">
+                                <label for="animals">Animals</label>
+                            </div>
 
-                          <div>
-                            <input type="checkbox" id="battle" name="battle">
-                            <label for="battle">Battle</label>
-                          </div>
+                            <div>
+                                <input type="checkbox" id="battle" name="battle">
+                                <label for="battle">Battle</label>
+                            </div>
+                        </div>
                     </fieldset>
-
-
-                    
                     <input type="submit">
                     <input type="reset">
                 </form>

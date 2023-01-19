@@ -108,6 +108,11 @@ article p {
     margin: 10px;
 }
 
+.interfaz>img, .interfaz>figcaption {
+    width: 800px;
+    margin-left :150px;
+}
+
 article figcaption{
     font-family: 'Roboto Condensed';
 }
@@ -129,6 +134,10 @@ article figcaption{
     margin: 18px 15px;
 }
 
+table {
+    font-family: 'Antic Slab';
+}
+
 footer {
     margin: 20px 0;
     background-color: rgb(155, 155, 155);
@@ -142,6 +151,7 @@ footer>p {
 footer p{
     padding-bottom: 10px;
     padding-left: 10px;
+    font-family: 'Antic Slab';
 }
 
 .banners {
@@ -154,4 +164,46 @@ footer a{
     color:rgb(52, 86, 18);
     text-decoration: none;
 
+}
+
+form {
+    margin: 0 20px;
+    padding: 10px 0;
+    font-family: 'Ubuntu Mono';
+}
+
+form>input {
+    margin-top: 10px;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+fieldset {
+    margin-top:10px ;
+    background-color: #bfbfbf;
+    border: 0px ;
+}
+
+legend {
+    padding: 20px 0;
+    font-family: 'Roboto Condensed';
+}
+
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 10px;  
+}
+
+.additional-d,.personal-d{
+    margin-left: 10px;
+}
+
+input {
+    background-color: rgb(195, 195, 195);
+}
+
+input:hover {
+    background-color: greenyellow;
 }
