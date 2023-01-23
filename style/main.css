@@ -256,3 +256,24 @@ input:hover {
     padding: 10px 0;
 }
 
+.weapons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weapons table{
+    padding: 10px 0;
+}
+
+.videos {
+    flex-direction: column;
+    margin: 35px 50px 0 0;
+}
+
+.videos ul{
+    list-style: none;
+}
+
+
+
+
