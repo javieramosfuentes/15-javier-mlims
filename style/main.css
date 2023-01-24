@@ -274,6 +274,38 @@ input:hover {
     list-style: none;
 }
 
+.f-tool{
+    width: 500px;
+}
+
+.farming h3{
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.farming {
+    display: flex;
+}
+
+.info{
+    display: flex;
+    background-color: #bfbfbf;
+    margin: 20px 10px;
+}
+
+.info p{
+    border-left: 2px solid rgb(219, 219, 219);
+    padding: 0 10px 0 25px;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+
+    border-right: 2px solid rgb(219, 219, 219);
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
 
 
 
