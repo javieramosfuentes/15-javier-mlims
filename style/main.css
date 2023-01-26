@@ -172,7 +172,7 @@ footer p{
     display: flex;
     justify-content: flex-end;
     flex: 1;
-    padding: 10px 0;
+    padding: 10px 10px 10px 0;
 }
 
 footer a{
@@ -359,4 +359,53 @@ input:hover {
 .beginning img:hover{
     border-radius: 50px;
     transition: 1s;
+}
+
+.materials-nav h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
+    color: #1e7e1c;
+}
+
+.materials-nav ul{
+    list-style-type: none;
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Antic Slab',Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.materials-nav ul>li{
+    
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #1a4314;
+}
+
+.mobs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobs-container{
+    display: flex;
+    flex: 1 auto;
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 10px 10px;
+}
+
+.mobs-container>img{
+    padding: 0 10px 0 0;
+    flex-basis: 100px;
+}
+
+.mobs-container>h2{
+    font-family: 'Ubuntu Mono';
+    text-align: center;
+    padding: 10px 0;
 }
