@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Roboto+Condensed&family=Ubuntu+Mono&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -327,8 +329,8 @@ input:hover {
 }
 
 .materials-table{
-    margin: 0 0 0 50px;
-    padding: 10px 0 20px 0;
+    margin: 0 0 0 30px;
+    padding: 10px 20px 20px 0;
 }
 
 .materials-table>caption,.materials-table th{
