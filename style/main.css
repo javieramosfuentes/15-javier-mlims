@@ -412,11 +412,6 @@ input:hover {
     margin: 10px 10px;
 }
 
-.mobs-container>img:hover{
-    opacity: 0.;
-    transition: 1s;
-}
-
 .mobs-container>img{
     padding: 0 10px 0 0;
     flex-basis: 100px;
